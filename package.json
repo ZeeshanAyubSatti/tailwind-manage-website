@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-manage-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx tailwindcss -i ./src/input.css -o ./css/main.css ",
+    "watch":"npx tailwindcss -i ./src/input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeeshanAyubSatti/tailwind-manage-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeeshanAyubSatti/tailwind-manage-website/issues"
+  },
+  "homepage": "https://github.com/ZeeshanAyubSatti/tailwind-manage-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
